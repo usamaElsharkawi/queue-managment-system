@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  /* --- Brand Colors --- */
+  --color-primary: #5865f2;
+  --color-success: #22c55e;
+  --color-danger: #ef4444;
+  --color-warning: #f59e0b;
+  --color-info: #1d9bf0;
+
+  /* --- Surface & UI Colors --- */
+  --color-bg-main: #0a0a0a;
+  --color-surface-card: #171717;
+  --color-surface-input: #1f1f1f;
+  
+  /* --- Text Colors --- */
+  --color-text-main: #ffffff;
+  --color-text-muted: #a3a3a3;
+
+  /* --- Borders & Radius --- */
+  --radius-app: 12px;
+  --border-ui: 1px solid #262626;
+
+  /* --- Spacing Shortcuts (Optional but helpful) --- */
+  --spacing-card: 1.5rem; /* 24px */
+}
+
+/* --- Base Styles --- */
+
+body {
+  background-color: var(--color-bg-main);
+  color: var(--color-text-main);
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
