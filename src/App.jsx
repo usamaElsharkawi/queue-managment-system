@@ -7,7 +7,7 @@ function App() {
   return (
     <QueueProvider>
       <Header />
-      <main className="flex gap-12 mx-auto container px-4">
+      <main className="flex flex-col lg:flex-row justify-center items-center gap-12 mx-auto container px-4">
         <AddCutomerForm />
         <CustomersList />
       </main>
